@@ -103,6 +103,11 @@ tr:hover td{background:var(--blue-tint);}
 .ads-rg{padding:6px 12px;font-size:12px;}
 .ads-rg.active{background:var(--blue);color:#fff;border-color:var(--blue);}
 .ads-rg.active:hover{background:var(--blue-hover);color:#fff;}
+.ads-toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;}
+.ads-seg{display:flex;gap:5px;}
+.ads-cur,.ads-lang{padding:6px 11px;font-size:12px;font-weight:600;}
+.ads-cur.active,.ads-lang.active{background:var(--blue);color:#fff;border-color:var(--blue);}
+.ads-cur.active:hover,.ads-lang.active:hover{background:var(--blue-hover);color:#fff;}
 .ads-ct{padding:5px 11px;font-size:12px;}
 .ads-ct.active{background:var(--blue);color:#fff;border-color:var(--blue);}
 .ads-ct.active:hover{background:var(--blue-hover);color:#fff;}
